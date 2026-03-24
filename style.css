@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+#menu {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+.fixed {
+  background: lightgray;
+}
